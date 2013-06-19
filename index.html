@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Mala Tabs Example</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+<div class="main-container">
+    <div class="tab-buttons">
+        <ul>
+            <li><a href="#first-tab">First Tab</a></li>
+            <li><a href="#second-tab">Second Tab</a></li>
+            <li><a href="#third-tab">Third-Tab</a></li>
+        </ul>
+    </div>
+    <div class="tab-contents">
+    
+        <!-- Tab 1 -->
+        <div id="first-tab">
+            <h3>First Tab Content</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel sem congue risus tempor iaculis sit amet vel diam. In sodales sagittis lorem non dictum. Suspendisse egestas erat id mi pellentesque congue. Etiam ultrices turpis ac tellus suscipit, eu eleifend purus rhoncus. Cras sed tellus nec enim convallis vestibulum. Donec sodales felis libero, vitae tincidunt lorem malesuada mollis. Nulla bibendum felis vel lorem scelerisque, vel porta enim dictum.</p>
+            <p>Nulla in dolor lacinia, convallis nulla eget, pharetra turpis. Duis nec semper ante, a eleifend lacus. Sed volutpat, erat at fermentum mollis, quam risus mollis lorem, vel pellentesque enim massa quis elit. Vestibulum tempor lorem non diam dictum tempor non sed dui. Ut varius nec sem non tincidunt. Integer turpis enim, eleifend quis gravida quis, lobortis non diam. Aenean volutpat mattis diam in rutrum.</p>
+        </div>
+        
+        <!-- Tab 2 -->
+        <div id="second-tab">
+            <h3>Second Tab Content</h3>
+            <p>Ut pellentesque non dolor eget imperdiet. In bibendum ligula at eros porta porta vitae a orci. Aenean posuere elit nibh, eu auctor ligula auctor vel. Quisque bibendum leo id rhoncus interdum. Fusce iaculis mauris vitae commodo porttitor. Phasellus porta malesuada lorem, non pulvinar nisi. Integer at lacus non lectus dapibus vehicula feugiat sit amet purus.</p>
+            <p>Quisque eu odio risus. Etiam in tortor id ante vestibulum pharetra eget eu ante. Duis ornare fermentum libero nec congue. Maecenas at facilisis eros. Curabitur rutrum molestie metus at dictum. Donec hendrerit viverra enim eget sagittis. Vivamus nec eros sodales, molestie odio facilisis, porttitor dolor. Nullam ligula lectus, molestie a dictum mollis, ultrices sagittis nunc. Aliquam cursus, turpis at pellentesque luctus, dui felis commodo mi, id laoreet metus arcu non turpis.</p>
+        </div>
+        
+        <!-- Tab 3 -->
+        <div id="third-tab">
+            <h3>Third Tab Content</h3>
+            <p>Donec eu dui lobortis, rhoncus eros nec, tincidunt odio. Maecenas fermentum vitae metus vehicula mollis. Mauris ac leo vel turpis tempor sollicitudin. Sed felis dui, ultricies sit amet justo in, pharetra placerat elit. Maecenas imperdiet est ut mollis faucibus. Nulla facilisi. Pellentesque nisi velit, ultricies varius tortor ac, auctor hendrerit lacus. Maecenas sodales erat quis ante consectetur viverra. Phasellus nec nisi ut tortor venenatis tempus non eu purus. Fusce vitae est a massa consequat molestie. Suspendisse venenatis sollicitudin nunc, feugiat malesuada orci mollis at. Maecenas rutrum auctor elementum. Ut sed erat vel arcu egestas malesuada.</p>
+        	<p>Sed eget elit turpis. Aenean sit amet faucibus risus. In elit lectus, porttitor placerat condimentum at, cursus non augue. Sed vestibulum nec nisi sed rhoncus. Nullam in rutrum dolor. In hac habitasse platea dictumst. Proin laoreet nec risus at aliquam. Nam pulvinar nunc non felis lacinia, ornare eleifend augue semper. Praesent vel imperdiet ante. Cras euismod massa in urna semper, non pellentesque metus tincidunt. Duis vestibulum metus risus, vitae ultrices diam pharetra non. Sed vel urna leo. Etiam a aliquam nulla, vel egestas purus. Proin sed rutrum metus, ut tristique elit. Aliquam dictum posuere metus vitae tincidunt. Sed sed dolor ante.</p>
+        </div>
+    </div>
+</div>
+
+<script language="javascript" type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/mala-tabs.js"></script>
+<script language="javascript" type="text/javascript">
+	$(document).ready(function() {
+		$('.main-container').malaTabs({firstTab: '#second-tab'});
+	});
+</script>
+</body>
+</html>

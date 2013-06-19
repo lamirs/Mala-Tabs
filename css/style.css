@@ -1,0 +1,15 @@
+body{background: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; text-shadow: none; }
+
+.main-container h3, .main-container p{margin:0px; padding-bottom:15px;}
+
+.main-container .tab-buttons ul{list-style:none;margin:0px; padding:0px;}
+.main-container .tab-buttons ul:before,.main-container .tab-buttons ul:after {content: " ";display: table;}
+.main-container .tab-buttons ul:after {clear: both;}
+.main-container .tab-buttons ul li{list-style:none; float:left; border:solid 1px #000000; margin-left:-1px;}
+.main-container .tab-buttons ul li:first-child{margin-left:0px;}
+.main-container .tab-buttons ul li a{padding:10px 30px;display:block; background:#dddddd;color:#000000; font-weight:bold; text-decoration:none; transition: all 0.5s;-webkit-transition: all 0.5s;}
+.main-container .tab-buttons ul li.selected-tab{border-bottom:solid 1px #ffffff;}
+.main-container .tab-buttons ul li.selected-tab a{background:#ffffff;}
+
+.main-container .tab-contents{border:solid 1px #000000; margin-top:-1px; padding:10px; width:700px;}
+
